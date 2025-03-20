@@ -36,18 +36,38 @@
             transition: background 0.3s;
 
         }
+        .add-item {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: none;
+            background-color: #000;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+
+        }
         .todo-item:hover {
-            background-color: #0056b3;
+            background-color: #b30000;
+        }
+        .add-item:hover{
+            background-color: #1b00b3;
+
+        }
+        .todo-item:click{
+            background-color:#000;
         }
     </style>
 </head>
 <body>
     <h1>Tolle TODO Application</h1>
     <div class="todo-list">
-        <button class="todo-item">Aufgabe 1</button>
-        <button class="todo-item">Aufgabe 2</button>
-        <button class="todo-item">Aufgabe 3</button>
-        <button class="todo-item">Aufgabe 4</button>
+        <button class="todo-item">TODO1</button>
+        <button class="add-item">ADD</button> 
+        <button class="todo-item">TODO1</button>
     </div>
 </body>
 </html>
